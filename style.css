@@ -37,7 +37,11 @@ body, html {
     to   {margin-left: 8vh;}
 }
 
-
+.menuItem{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    margin: 0px;
+}
 .Welcome{
     font-family: ImperialScript;
     text-align: center;
@@ -114,6 +118,12 @@ h1{
 .menudesc{
     font-family: AlexBrush;
     font-size: 20px;
+    margin: 0;
+    margin-bottom: 13px;
+}
+.price{
+    height: 20px;
+    text-align: center;
 }
 
 .simplemenubutton{
@@ -132,6 +142,7 @@ h1{
 
 h2{
     font-family: ImperialScript;
+    margin-top: 0;
 }
 
 .buttonBackground{
